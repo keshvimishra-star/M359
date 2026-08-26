@@ -65,7 +65,7 @@ public class CodingPractice_1_6 {
         int paceMinutes = (int) pace;
         int paceSeconds = (int) ((pace - paceMinutes) * 60);
 
-        System.out.println("Average pace: " paceMinutes + " min " + paceSeconds + " sec / mile");
+        System.out.println("Average: " paceMinutes + " min " + paceSeconds + " sec / mile");
 
         input.close();
     }
